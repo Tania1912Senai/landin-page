@@ -1,0 +1,68 @@
+/*imports*/
+@font-face {
+    font-family: "My Fonts";
+    src: url(../assets/fonts/Bebas-neue/BebasNeue-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid; */
+}
+
+header{
+    height: 60px;
+    background-color: #f9003d;
+}
+
+/*header*/
+header .header-flex {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    /* background-color: #f9003d; */
+}
+
+header nav {
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* border: 3px solid white; */
+}
+
+header nav a {
+    font-family: "My Fonts";
+    color: white;
+    text-decoration: none;
+    font-size: 0cm 18px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px black;
+    padding: 15px 20px;
+    border-radius: 5px;
+
+} 
+header nav a:hover {
+    text-shadow: 0px 0px 5px  rgba(249, 0, 61, 0.3);
+    background-color: white
+    color #F9003D;
+}
+/*main*/
+main .banner {
+height:  740px;
+background-color: aquamarine;
+background-image: url(../assets/Images/imagem-fundo-banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: ;
+ }
