@@ -12,13 +12,14 @@
 <body>
     <header>
         <div class="layout-grid header-flex">
-
-            <nav>
+            <nav id="navmenu">
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
+            <img id="menu-mobile"  src="assets/Icones/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="" onclick="mostrarMenu()">
+
 
         </div>
 
@@ -41,8 +42,8 @@
             </div>
 
             <div class="linha">
-                <img src="./assets/Images/imagem-seção-sobre.png" 
-                alt="Professor ministrando aula para pessoas que estão atentamente observando">
+                <img src="./assets/Images/imagem-seção-sobre.png"
+                    alt="Professor ministrando aula para pessoas que estão atentamente observando">
             </div>
 
             <div class="participantes">
@@ -65,7 +66,11 @@
         <footer>
 
         </footer>
-
+        <script>
+            function mostrarMenu() {
+                document.getElementById("navmenu").classList.toggle("mostrarMenu");
+            }
+        </script>
 </body>
 
 </html>
